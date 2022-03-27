@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    line-height: 1.5;
+}
+h2{
+    margin: 0;
+    padding: 1em;
+}
+p{
+    margin: 0;
+    padding: 1em;
+    padding-bottom: 2em;
+}
+img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.bg{
+    background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    opacity: 0.5;
+}
+#headerId{
+    text-align: center;
+    min-height: 450px;
+    color: white;
+}
+#headerId h1{
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+.btn{
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(206, 197, 197);
+    padding: 1em;
+}
+.btn:hover{
+    background: #fff;
+    color: #333;
+    cursor: grab;
+}
+#section-a{
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+}
+#section-b{
+    display: grid;
+    padding: 2em;
+}
+#section-b ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+#section-b li{
+    background-color: #fff;
+    color: #333;
+    width: 31%;
+    margin-bottom: 1em;
+}
+#section-c{
+    background-color: #fff;
+    color: #333;
+    padding: 0 6em;
+}
+#section-d{
+    display: flex;
+}
+#section-d .box:first-child {
+    background-color: rgb(41, 126, 155);
+}
+#footer{
+    display: flex;
+    padding: 2em;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width: 600px){
+    #section-b ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+        justify-content: space-around;
+    }
+    #section-b li{
+        background-color: #fff;
+        color: #333;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+}
